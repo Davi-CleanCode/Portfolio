@@ -25,7 +25,7 @@ const HeroSection: React.FC = () => {
 
               <div className="w-full h-full rounded-full bg-gradient-to-br from-primary-800 to-primary-500 flex items-center justify-center text-lg font-medium group-hover:shadow-glow transition-all duration-300">
                 <img
-                  src="/public/WhatsApp Image 2025-04-24 at 00.05.45.jpeg"
+                  src="/public/fotoperfil.jpeg"
                   alt="Minha Foto"
                   className="w-full h-full object-cover rounded-full"
                   style={{ objectPosition: 'top center' }} />
