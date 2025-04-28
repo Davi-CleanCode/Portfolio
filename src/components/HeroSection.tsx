@@ -3,12 +3,13 @@ import { Link } from 'react-scroll';
 import { Download, ArrowDown, Code, Mail, Briefcase } from 'lucide-react';
 import { motion } from 'framer-motion';
 import fotoPerfil from '../assets/fotoperfil.jpeg';
+import curriculo from '../assets/CV-DaviViana.pdf'
 
 const HeroSection: React.FC = () => {
   const handleResumeDownload = () => {
     const link = document.createElement('a');
-    link.href = '/CV-DaviViana.pdf';
-    link.download = 'CV-DaviViana.pdf';
+    link.href = curriculo;
+    link.download = curriculo;
     link.click();
   };
 
