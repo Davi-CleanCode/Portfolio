@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-scroll';
 import { Download, ArrowDown, Code, Mail, Briefcase } from 'lucide-react';
 import { motion } from 'framer-motion';
+import fotoPerfil from './assets/fotoperfil.jpeg';
 
 const HeroSection: React.FC = () => {
   const handleResumeDownload = () => {
@@ -25,10 +26,11 @@ const HeroSection: React.FC = () => {
 
               <div className="w-full h-full rounded-full bg-gradient-to-br from-primary-800 to-primary-500 flex items-center justify-center text-lg font-medium group-hover:shadow-glow transition-all duration-300">
                 <img
-                  src="/public/fotoperfil.jpeg"
+                  src={fotoPerfil}
                   alt="Minha Foto"
                   className="w-full h-full object-cover rounded-full"
-                  style={{ objectPosition: 'top center' }} />
+                  style={{ objectPosition: 'top center' }}
+                />
 
               </div>
             </div>
