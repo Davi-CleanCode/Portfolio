@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-scroll';
 import { Download, ArrowDown, Code, Mail, Briefcase } from 'lucide-react';
 import { motion } from 'framer-motion';
-import fotoPerfil from './assets/fotoperfil.jpeg';
+import fotoPerfil from '../assets/fotoperfil.jpeg';
 
 const HeroSection: React.FC = () => {
   const handleResumeDownload = () => {
