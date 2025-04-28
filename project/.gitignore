@@ -1,0 +1,16 @@
+# Logs
+*.log
+npm-debug.log*
+
+# Dependências
+/node_modules/
+/.supabase/
+/.env
+/.env.local
+
+# Builds
+/dist/
+/coverage/
+
+# Sistemas operacionais
+.DS_Store
