@@ -1,6 +1,11 @@
 import React from 'react';
 import { Github, ExternalLink } from 'lucide-react';
 import { motion } from 'framer-motion';
+import selfChekoutfoto from '../assets/selfcheckout.png'
+import gerenciadorapp from '../assets/cadastro.png'
+import PortfolioWebsite from '../assets/portifolio.png'
+
+
 
 interface Technology {
   name: string;
@@ -22,7 +27,7 @@ const projects: Project[] = [
     id: 1,
     title: 'Self Checkout',
     description: 'Site de e-commerce totalmente responsivo com filtro de produtos e funcionalidade de carrinho.',
-    image: '/public/selfcheckout.png',
+    image: selfChekoutfoto,
     technologies: [
       { name: 'React', color: 'bg-blue-500' },
       { name: 'Node.js', color: 'bg-green-600' },
@@ -36,7 +41,7 @@ const projects: Project[] = [
     id: 2,
     title: 'App para gerenciar mentorados',
     description: 'Aplicativo responsivo para monitoramento de mentorados, com acompanhamento de progresso, metas e feedbacks em tempo real.',
-    image: '/public/cadastro.png',
+    image: gerenciadorapp,
     technologies: [
       { name: 'React', color: 'bg-blue-500' },
       { name: 'Python', color: 'bg-blue-500' },
@@ -62,7 +67,7 @@ const projects: Project[] = [
     id: 4,
     title: 'Portfolio Website',
     description: 'A personal portfolio website showcasing skills and projects.',
-    image: '/public/portifolio.png',
+    image: PortfolioWebsite,
     technologies: [
       { name: 'React', color: 'bg-blue-500' },
       { name: 'Tailwind CSS', color: 'bg-blue-400' },
