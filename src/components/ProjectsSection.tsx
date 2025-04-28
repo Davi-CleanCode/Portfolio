@@ -67,7 +67,6 @@ const projects: Project[] = [
       { name: 'React', color: 'bg-blue-500' },
       { name: 'Tailwind CSS', color: 'bg-blue-400' },
       { name: 'Framer Motion', color: 'bg-purple-500' },
-      { name: 'Node.js', color: 'bg-green-600' },
     ],
     githubUrl: 'https://github.com/Davi-CleanCode/About-me',
     liveUrl: 'https://example.com',
