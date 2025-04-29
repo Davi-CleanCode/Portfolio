@@ -47,7 +47,7 @@ const ContactSection: React.FC = () => {
           </motion.a>
 
           <motion.a
-            href="wa.me/5511914828157"
+            href="https://wa.me/5511914828157"
             className="card flex flex-col items-center text-center p-8 cursor-pointer group"
             whileHover={{ y: -5 }}
             transition={{ type: "spring", stiffness: 400, damping: 10 }}
