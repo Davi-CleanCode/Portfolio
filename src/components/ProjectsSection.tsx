@@ -73,8 +73,8 @@ const projects: Project[] = [
       { name: 'Tailwind CSS', color: 'bg-blue-400' },
       { name: 'Framer Motion', color: 'bg-purple-500' },
     ],
-    githubUrl: 'https://github.com/Davi-CleanCode/About-me',
-    liveUrl: 'https://example.com',
+    githubUrl: 'https://github.com/Davi-CleanCode/Portfolio',
+    liveUrl: 'https://about-me-davi.vercel.app/',
   },
 ];
 
