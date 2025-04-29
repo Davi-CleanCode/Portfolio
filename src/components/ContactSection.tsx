@@ -19,7 +19,7 @@ const ContactSection: React.FC = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
           <motion.a
-            href="mailto:daviviana@gmail.com"
+            href="mailto:daviviana2732@gmail.com"
             className="card flex flex-col items-center text-center p-8 cursor-pointer group"
             whileHover={{ y: -5 }}
             transition={{ type: "spring", stiffness: 400, damping: 10 }}
