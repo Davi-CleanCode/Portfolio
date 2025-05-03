@@ -3,7 +3,7 @@ import { Link } from 'react-scroll';
 import { Download, ArrowDown, Code, Mail, Briefcase } from 'lucide-react';
 import { motion } from 'framer-motion';
 import fotoPerfil from '../assets/fotoperfil.jpeg';
-import curriculo from '../assets/CV-DaviViana.pdf'
+import curriculo from '../assets/Davi_Cv.pdf'
 
 const HeroSection: React.FC = () => {
   const handleResumeDownload = () => {
