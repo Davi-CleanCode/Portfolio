@@ -4,7 +4,8 @@ import { motion } from 'framer-motion';
 import selfChekoutfoto from '../assets/selfcheckout.png'
 import gerenciadorapp from '../assets/cadastro.png'
 import PortfolioWebsite from '../assets/portifolio.png'
-
+import WebSite from '../assets/website.png'
+import landingPage from '../assets/pageGamer.png'
 
 
 interface Technology {
@@ -54,7 +55,7 @@ const projects: Project[] = [
     id: 3,
     title: 'Landing Page Gamer',
     description: 'Uma landing page para um jogo, com design responsivo e atraente para a comunidade gamer.',
-    image: '/src/assets/pageGamer.png',
+    image: landingPage,
     technologies: [
       { name: 'HTML', color: 'bg-blue-600' },
       { name: 'CSS', color: 'bg-blue-500' },
@@ -80,7 +81,7 @@ const projects: Project[] = [
     id: 5,
     title: 'Website',
     description: 'Projeto foi realizado como atividade do curso profissionalizante EBAC.',
-    image: '/src/assets/website.png',
+    image: WebSite,
     technologies: [
       { name: 'HTML', color: 'bg-blue-600' },
       { name: 'CSS', color: 'bg-blue-500' },
