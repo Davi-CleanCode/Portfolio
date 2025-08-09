@@ -1,5 +1,5 @@
 import React from 'react';
-import { Github, Linkedin, Twitter, Mail } from 'lucide-react';
+import { Github, Linkedin, Mail } from 'lucide-react';
 
 const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
@@ -34,7 +34,6 @@ const Footer: React.FC = () => {
               className="text-gray-400 hover:text-primary-400 transition-colors duration-300"
               aria-label="Instagram"
             >
-              <Twitter size={24} />
             </a>
             <a
               href="mailto:daviviana2732@gmail.com"

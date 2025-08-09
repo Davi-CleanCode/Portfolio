@@ -52,7 +52,7 @@ const HeroSection: React.FC = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
           >
-            Engenheiro de Software / FullStack Developer
+            Engenheiro de Software / FullStack Developer / Analista de Dados
           </motion.p>
 
           <motion.p
@@ -62,7 +62,7 @@ const HeroSection: React.FC = () => {
             transition={{ duration: 0.5, delay: 0.3 }}
           >
             Estudante de Gestão de TI, especializado em desenvolvimento Fullstack e Gestão de projetos, apaixonado por tecnologia.
-            Profissional apto para resoluções de problemas, implementação de sistemas e gerenciamento de processo.
+            Profissional apto para resoluções de problemas, implementação de sistemas, gerenciamento de processo e analise de dados.
             familiaridade com metodologias ageis, e com diversas stacks em meu inventario.
           </motion.p>
 
