@@ -49,7 +49,6 @@ const projects: Project[] = [
       { name: 'Django', color: 'bg-orange-500' },
     ],
     githubUrl: 'https://github.com/Davi-CleanCode/App-para-gerenciar-mentorados',
-    liveUrl: '#',
   },
   {
     id: 3,
