@@ -4,8 +4,8 @@ const icons: Record<string, JSX.Element> = {
     react: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" width={48} height={48} />,
     angular: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" alt="Angular" width={48} height={48} />,
     sql: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="SQL" width={48} height={48} />,
-    aws: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg" alt="AWS" width={48} height={48} />,
-    bigquery: <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/BigQuery_Logo.svg" alt="BigQuery" width={48} height={48} />,
+    aws: <img src="https://www.logo.wine/logo/Amazon_Web_Services/Amazon_Web_Services-Logo.wine.svg" alt="AWS" width={48} height={48} />,
+    bigquery: <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fmesadeayuda.servinformacion.com%2Fpt-br%2Fknowledge%2Fbig-query-no-gcp&psig=AOvVaw2Gu-95XO2jnmI-yUlrD4Qk&ust=1759457122326000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCKCAptq2hJADFQAAAAAdAAAAABAE" alt="BigQuery" width={48} height={48} />,
     javascript: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" width={48} height={48} />,
     django: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" alt="Django" width={48} height={48} style={{ background: '#fff', borderRadius: '8px' }} />,
     dotnet: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-original.svg" alt=".NET" width={48} height={48} />,
@@ -13,15 +13,15 @@ const icons: Record<string, JSX.Element> = {
 
 const techs = [
     { name: 'C#', key: 'csharp' },
+    { name: '.NET', key: 'dotnet' },
     { name: 'Python', key: 'python' },
+    { name: 'Django', key: 'django' },
+    { name: 'JavaScript', key: 'javascript' },
     { name: 'React', key: 'react' },
     { name: 'Angular', key: 'angular' },
     { name: 'SQL', key: 'sql' },
     { name: 'AWS', key: 'aws' },
     { name: 'BigQuery', key: 'bigquery' },
-    { name: 'JavaScript', key: 'javascript' },
-    { name: 'Django', key: 'django' },
-    { name: '.NET', key: 'dotnet' },
 ];
 
 export default function TechStackSection() {
