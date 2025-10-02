@@ -6,6 +6,9 @@ import gerenciadorapp from '../assets/cadastro.png'
 import PortfolioWebsite from '../assets/portifolio.png'
 import WebSite from '../assets/website.png'
 import landingPage from '../assets/pageGamer.png'
+import Orbitpage from '../assets/orbit_page.png'
+import Biblequest from '/src/assets/biblequest.png'
+import MottuLiderança from '/src/assets/pagemottu.jpg'
 
 
 interface Technology {
@@ -26,32 +29,20 @@ interface Project {
 const projects: Project[] = [
   {
     id: 1,
-    title: 'Self Checkout',
-    description: 'Site de e-commerce totalmente responsivo com filtro de produtos e funcionalidade de carrinho.',
-    image: selfChekoutfoto,
+    title: 'Orbit Page',
+    description: 'Essa é uma criação minha, uma landingpage de uma ideia de empreendedorismo, um projeto pessoal e especial para mim, que foi pensando em cada detalhe para oferecer uma experiência única aos visitantes.',
+    image: Orbitpage,
     technologies: [
       { name: 'React', color: 'bg-blue-500' },
-      { name: 'Node.js', color: 'bg-green-600' },
-      { name: 'typescript', color: 'bg-blue-500' },
-      { name: 'Next.Js', color: 'bg-gray-400' },
+      { name: 'javascript', color: 'bg-yellow-500' },
+      { name: 'Node.js', color: 'bg-green-500' },
+      { name: 'Tailwind CSS', color: 'bg-blue-400' },
     ],
-    githubUrl: 'https://github.com/Davi-CleanCode/Self-Checkout',
-    liveUrl: 'https://example.com',
+    githubUrl: 'https://github.com/Davi-CleanCode/Orbit_Page',
+    liveUrl: 'https://orbit-page-five.vercel.app/',
   },
   {
     id: 2,
-    title: 'App para gerenciar mentorados',
-    description: 'Aplicativo responsivo para monitoramento de mentorados, com acompanhamento de progresso, metas e feedbacks em tempo real.',
-    image: gerenciadorapp,
-    technologies: [
-      { name: 'React', color: 'bg-blue-500' },
-      { name: 'Python', color: 'bg-blue-500' },
-      { name: 'Django', color: 'bg-orange-500' },
-    ],
-    githubUrl: 'https://github.com/Davi-CleanCode/App-para-gerenciar-mentorados',
-  },
-  {
-    id: 3,
     title: 'Landing Page Gamer',
     description: 'Uma landing page para um jogo, com design responsivo e atraente para a comunidade gamer.',
     image: landingPage,
@@ -63,7 +54,71 @@ const projects: Project[] = [
     liveUrl: 'https://page-gamer.vercel.app/',
   },
   {
+    id: 3,
+    title: 'Guia para lideres de filiais da Mottu',
+    description: 'LandingPage para lideres de filiais da Mottu, com design responsivo e atraente.',
+    image: MottuLiderança,
+    technologies: [
+      { name: 'Angular', color: 'bg-red-500' },
+      { name: 'HTML', color: 'bg-blue-600' },
+      { name: 'CSS', color: 'bg-blue-500' },
+      { name: 'Git Actions', color: 'bg-black-500' },
+    ],
+    githubUrl: 'https://github.com/Davi-CleanCode/App-para-gerenciar-mentorados',
+    liveUrl: 'https://davi-cleancode.github.io/mottu_lideran-a/',
+  },
+  {
     id: 4,
+    title: 'Website',
+    description: 'Projeto foi realizado como atividade do curso profissionalizante EBAC.',
+    image: WebSite,
+    technologies: [
+      { name: 'HTML', color: 'bg-blue-600' },
+      { name: 'CSS', color: 'bg-blue-500' },
+    ],
+    githubUrl: 'https://github.com/Davi-CleanCode/WebSite-Gamer',
+    liveUrl: 'https://web-site-gamer.vercel.app/',
+  },
+  {
+    id: 5,
+    title: 'bible quest',
+    description: 'O intuito é criar um site interativo e gamificado para estudo da bíblia.',
+    image: Biblequest,
+    technologies: [
+      { name: 'React', color: 'bg-blue-500' },
+      { name: 'Node.js', color: 'bg-green-500' },
+      { name: 'Tailwind CSS', color: 'bg-blue-400' },
+    ],
+    githubUrl: 'https://github.com/Davi-CleanCode/',
+    liveUrl: 'https://bible-quest-xi.vercel.app/dashboard',
+  },
+  {
+    id: 6,
+    title: 'Self Checkout',
+    description: 'Site de e-commerce totalmente responsivo com filtro de produtos e funcionalidade de carrinho.',
+    image: selfChekoutfoto,
+    technologies: [
+      { name: 'React', color: 'bg-blue-500' },
+      { name: 'Node.js', color: 'bg-green-600' },
+      { name: 'typescript', color: 'bg-blue-500' },
+      { name: 'Next.Js', color: 'bg-gray-400' },
+    ],
+    githubUrl: 'https://github.com/Davi-CleanCode/Self-Checkout',
+  },
+  {
+    id: 7,
+    title: 'App para gerenciar mentorados',
+    description: 'Aplicativo responsivo para monitoramento de mentorados, com acompanhamento de progresso, metas e feedbacks em tempo real.',
+    image: gerenciadorapp,
+    technologies: [
+      { name: 'React', color: 'bg-blue-500' },
+      { name: 'Python', color: 'bg-blue-500' },
+      { name: 'Django', color: 'bg-orange-500' },
+    ],
+    githubUrl: 'https://github.com/Davi-CleanCode/App-para-gerenciar-mentorados',
+  },
+  {
+    id: 8,
     title: 'Portfolio Web',
     description: 'Meu portifólio, criado para monitorar progresso de projetos e oferecer serviços Freelancer.',
     image: PortfolioWebsite,
@@ -75,18 +130,6 @@ const projects: Project[] = [
     ],
     githubUrl: 'https://github.com/Davi-CleanCode/Portfolio',
     liveUrl: 'https://about-me-davi.vercel.app/',
-  },
-  {
-    id: 5,
-    title: 'Website',
-    description: 'Projeto foi realizado como atividade do curso profissionalizante EBAC.',
-    image: WebSite,
-    technologies: [
-      { name: 'HTML', color: 'bg-blue-600' },
-      { name: 'CSS', color: 'bg-blue-500' },
-    ],
-    githubUrl: 'https://github.com/Davi-CleanCode/WebSite-Gamer',
-    liveUrl: 'https://web-site-gamer.vercel.app/',
   },
 ];
 
