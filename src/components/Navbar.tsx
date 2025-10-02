@@ -46,7 +46,6 @@ const Navbar: React.FC = () => {
           <span className="text-primary-500">Portfolio</span>
         </Link>
 
-        {/* Desktop Navigation */}
         <div className="hidden md:flex items-center space-x-8">
           {navLinks.map((link) => (
             <Link
@@ -64,7 +63,6 @@ const Navbar: React.FC = () => {
           ))}
         </div>
 
-        {/* Mobile Navigation Button */}
         <div className="md:hidden">
           <button
             onClick={toggleMenu}
@@ -76,7 +74,6 @@ const Navbar: React.FC = () => {
         </div>
       </div>
 
-      {/* Mobile Navigation Menu */}
       <div
         className={`md:hidden bg-dark-900/95 backdrop-blur-sm transition-all duration-300 overflow-hidden ${
           isOpen ? 'max-h-96 py-4' : 'max-h-0 py-0'
