@@ -9,6 +9,7 @@ import landingPage from '../assets/pageGamer.png'
 import Orbitpage from '../assets/orbit_page.png'
 import Biblequest from '/src/assets/biblequest.png'
 import MottuLiderança from '/src/assets/pagemottu.jpg'
+import NLWPrompt from '../assets/NLWPrompt.png'
 
 
 interface Technology {
@@ -45,7 +46,7 @@ const projects: Project[] = [
     id: 2,
     title: 'Projeto NLW App de Prompt',
     description: 'App integrado com IA, respode a prompts, feito no curso iniciante da RockSeat.',
-    image: Orbitpage,
+    image: NLWPrompt,
     technologies: [
       { name: 'HTML', color: 'bg-blue-600' },
       { name: 'CSS', color: 'bg-blue-500' },
