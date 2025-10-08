@@ -43,6 +43,21 @@ const projects: Project[] = [
   },
   {
     id: 2,
+    title: 'Projeto NLW App de Prompt',
+    description: 'App integrado com IA, respode a prompts, feito no curso iniciante da RockSeat.',
+    image: Orbitpage,
+    technologies: [
+      { name: 'HTML', color: 'bg-blue-600' },
+      { name: 'CSS', color: 'bg-blue-500' },
+      { name: 'javascript', color: 'bg-yellow-500' },
+      { name: 'Node.js', color: 'bg-green-500' },
+      { name: 'IA', color: 'bg-black-400' },
+    ],
+    githubUrl: 'https://github.com/Davi-CleanCode/prompts_manager-NLW',
+    liveUrl: 'https://prompts-manager-nlw.vercel.app/',
+  },
+  {
+    id: 3,
     title: 'Landing Page Gamer',
     description: 'Uma landing page para um jogo, com design responsivo e atraente para a comunidade gamer.',
     image: landingPage,
@@ -54,7 +69,7 @@ const projects: Project[] = [
     liveUrl: 'https://page-gamer.vercel.app/',
   },
   {
-    id: 3,
+    id: 4,
     title: 'Guia para lideres de filiais da Mottu',
     description: 'LandingPage para lideres de filiais da Mottu, com design responsivo e atraente.',
     image: MottuLiderança,
@@ -68,7 +83,7 @@ const projects: Project[] = [
     liveUrl: 'https://davi-cleancode.github.io/mottu_lideran-a/',
   },
   {
-    id: 4,
+    id: 5,
     title: 'Website',
     description: 'Projeto foi realizado como atividade do curso profissionalizante EBAC.',
     image: WebSite,
@@ -80,7 +95,7 @@ const projects: Project[] = [
     liveUrl: 'https://web-site-gamer.vercel.app/',
   },
   {
-    id: 5,
+    id: 6,
     title: 'bible quest',
     description: 'O intuito é criar um site interativo e gamificado para estudo da bíblia.',
     image: Biblequest,
@@ -93,7 +108,7 @@ const projects: Project[] = [
     liveUrl: 'https://bible-quest-xi.vercel.app/dashboard',
   },
   {
-    id: 6,
+    id: 7,
     title: 'Self Checkout',
     description: 'Site de e-commerce totalmente responsivo com filtro de produtos e funcionalidade de carrinho.',
     image: selfChekoutfoto,
@@ -106,7 +121,7 @@ const projects: Project[] = [
     githubUrl: 'https://github.com/Davi-CleanCode/Self-Checkout',
   },
   {
-    id: 7,
+    id: 8,
     title: 'App para gerenciar mentorados',
     description: 'Aplicativo responsivo para monitoramento de mentorados, com acompanhamento de progresso, metas e feedbacks em tempo real.',
     image: gerenciadorapp,
@@ -118,7 +133,7 @@ const projects: Project[] = [
     githubUrl: 'https://github.com/Davi-CleanCode/App-para-gerenciar-mentorados',
   },
   {
-    id: 8,
+    id: 9,
     title: 'Portfolio Web',
     description: 'Meu portifólio, criado para monitorar progresso de projetos e oferecer serviços Freelancer.',
     image: PortfolioWebsite,

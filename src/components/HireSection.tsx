@@ -31,13 +31,11 @@ const HireSection: React.FC = () => {
     e.preventDefault();
     setIsSubmitting(true);
     
-    // Simulate form submission
     setTimeout(() => {
       console.log('Form data submitted:', formData);
       setIsSubmitting(false);
       setSubmitted(true);
       
-      // Reset form after short delay
       setTimeout(() => {
         setFormData({
           name: '',
