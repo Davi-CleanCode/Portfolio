@@ -1,4 +1,6 @@
 const icons: Record<string, JSX.Element> = {
+    node.js
+    typescript
     csharp: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" alt="C#" width={48} height={48} />,
     python: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" width={48} height={48} />,
     react: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" width={48} height={48} />,
@@ -12,6 +14,8 @@ const icons: Record<string, JSX.Element> = {
 };
 
 const techs = [
+    { name: 'node.js#', key: 'csharp' },
+    { name: 'typescript', key: 'csharp' },
     { name: 'C#', key: 'csharp' },
     { name: '.NET', key: 'dotnet' },
     { name: 'Python', key: 'python' },

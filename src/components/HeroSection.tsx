@@ -52,7 +52,7 @@ const HeroSection: React.FC = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
           >
-            Engenheiro de Software / FullStack Developer / Analista de Dados
+           Backend Developer |c#, Node.js, Python & SQL | Business-Driven Software Engineer
           </motion.p>
 
           <motion.p
@@ -61,9 +61,9 @@ const HeroSection: React.FC = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.3 }}
           >
-            Estudante de Gestão de TI, especializado em desenvolvimento Fullstack e Gestão de projetos, apaixonado por tecnologia.
-            Profissional apto para resoluções de problemas, implementação de sistemas, gerenciamento de processo e analise de dados.
-            familiaridade com metodologias ageis, e com diversas stacks em meu inventario.
+            Estudante de Gestão de Tecnologia da Informação, especializado em desenvolvimento Full Stack e gestão de projetos, apaixonado por transformar ideias em soluções reais.
+            Tenho experiência em análise de negócios e dados, automação de processos e integração de sistemas, aplicando metodologias ágeis e boas práticas de engenharia de software para gerar eficiência e impacto mensurável.
+            Atualmente, foco em desenvolvimento back-end com Node.js, Python e SQL, construindo aplicações escaláveis que unem tecnologia e visão estratégica.
           </motion.p>
 
           <motion.div
