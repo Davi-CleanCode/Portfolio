@@ -48,10 +48,9 @@ Abra no seu navegador: http://localhost:5173 (ou porta indicada)
 
 ## Como rodar localmente
 
-Oi! Eu sou o Davi. Atualmente trabalho como auxiliar fiscal na Aunde Brasil, mas estou em transição para a área de TI / Engenharia de Software.
-Tenho boas habilidades analíticas, sou diplomático, tenho tato para gestão e liderança, e já atuo em ambiente de compliance e finanças.
-Atualmente curso Gestão de Tecnologia da Informação e me dedico a aprender full-stack e DevOps.
-Este portfólio é parte da minha estratégia para mostrar presença online, profissionalismo e meu crescimento nessa nova direção.
+Olá! Sou Davi Viana, Analista de Negócios na Mottu, onde atuo com programação, automação de processos e análise de dados.
+Tenho uma sólida base em Gestão de Tecnologia da Informação, além de experiência anterior em áreas financeiras e de compliance.
+Sou apaixonado por tecnologia, inovação e melhoria contínua — atualmente focado em desenvolvimento full stack e DevOps Engineering.
 
 ![alt text](image.png)
 ```
