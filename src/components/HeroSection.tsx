@@ -52,7 +52,7 @@ const HeroSection: React.FC = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
           >
-           Ful Stack Developer | Node.js, Python, C#, SQL & TypeScript | Business the analyst and Software Engineer
+           Full Stack Developer | Node.js, Python, C#, SQL & TypeScript | Business the analyst and Software Engineer
           </motion.p>
 
           <motion.p
