@@ -105,10 +105,10 @@ const icons: Record<string, JSX.Element> = {
       height={48}
     />
   ),
-  aws: (
+  Azure: (
     <img
-      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg"
-      alt="AWS"
+      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg"
+      alt="azure"
       width={48}
       height={48}
     />
