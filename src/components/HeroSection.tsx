@@ -2,8 +2,8 @@ import React from 'react';
 import { Link } from 'react-scroll';
 import { Download, ArrowDown, Code, Mail, Briefcase } from 'lucide-react';
 import { motion } from 'framer-motion';
-import fotoPerfil from '../assets/perfilnova.png';
-import curriculo from '../assets/DaviEngSoftware.pdf';
+import fotoPerfil from '../assets/profile/perfilnova.png';
+import curriculo from '../assets/profile/DaviEngSoftware.pdf';
 
 const HeroSection: React.FC = () => {
   const handleResumeDownload = () => {

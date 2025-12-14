@@ -3,7 +3,7 @@ import Navbar from './components/Navbar';
 import HeroSection from './components/HeroSection';
 import TechStackSection from './components/TechStackSection';
 import ProjectsSection from './components/ProjectsSection';
-import ContactSection from './components/ContactSection';
+import BlogSection from './components/BlogSection.tsx';
 import HireSection from './components/HireSection';
 import Footer from './components/Footer';
 
@@ -14,7 +14,7 @@ function App() {
       <HeroSection />
       <TechStackSection />
       <ProjectsSection />
-      <ContactSection />
+      <BlogSection />
       <HireSection />
       <Footer />
     </div>

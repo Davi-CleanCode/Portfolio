@@ -129,7 +129,7 @@ const techs = [
   { name: "Angular", key: "angular" },
   { name: "PostgreSQL", key: "postgresql" },
   { name: "BigQuery", key: "bigquery" },
-  { name: "AWS", key: "aws" },
+  { name: "azure", key: "azure" },
 ];
 
 export default function TechStackSection() {
