@@ -25,6 +25,19 @@ const blogPosts: BlogPost[] = [
     link: 'https://www.linkedin.com/posts/vianadavi_carreiraemt-fiap-tecnologia-activity-7321515804221423617-oQip',
     date: '2025-04-25',
   },
+  {
+    id: 2,
+    title: 'Meu Artigo no LinkedIn',
+    excerpt: 'Fim de um ciclo e a espera de novos desafios!',
+    images: [
+      '/src/assets/blog/encemottu1.jpg',
+      '/src/assets/blog/encemottu2.jpg',
+      '/src/assets/blog/encemottu3.jpg',
+      '/src/assets/blog/encemottu4.png',
+    ],
+    link: 'https://www.linkedin.com/posts/vianadavi_tecnologia-desenvolvimentodesoftware-backend-activity-7412891433000648704-tBDj?utm_source=share&utm_medium=member_desktop&rcm=ACoAADgEl7oBWn-hCVKz34kIpJ1gx-HUIZSAndk',
+    date: '2025-01-02',
+  },
 ]
 
 const BlogCard: React.FC<{ post: BlogPost; index: number }> = ({ post, index }) => {
