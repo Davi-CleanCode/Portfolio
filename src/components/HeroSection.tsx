@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-scroll';
 import { Download, ArrowDown, Code, Mail, Briefcase } from 'lucide-react';
 import { motion } from 'framer-motion';
@@ -6,6 +6,15 @@ import fotoPerfil from '../assets/profile/perfilnova.png';
 import curriculo from '../assets/profile/DaviEngSoftware.pdf';
 
 const HeroSection: React.FC = () => {
+  const [popupAberto, setPopupAberto] = useState(false);
+
+  const abrirPopup = () => {
+    setPopupAberto(true);
+  };
+
+  const fecharPopup = () => {
+    setPopupAberto(false);
+  };
   const handleResumeDownload = () => {
     const link = document.createElement('a');
     link.href = curriculo;
@@ -80,17 +89,13 @@ const HeroSection: React.FC = () => {
               Download CV
             </button>
 
-            <Link
-              to="contact"
-              spy={true}
-              smooth={true}
-              offset={-80}
-              duration={500}
+            <button
+              onClick={abrirPopup}
               className="btn btn-outline flex items-center justify-center gap-2 cursor-pointer"
             >
               <Mail size={18} />
               Contact Me
-            </Link>
+            </button>
           </motion.div>
 
           <motion.div
@@ -152,6 +157,46 @@ const HeroSection: React.FC = () => {
             <ArrowDown size={24} className="text-primary-500" />
           </Link>
         </div>
+        {popupAberto && (
+          <div className="fixed inset-0 bg-black/70 flex items-center justify-center z-50">
+            <div className="bg-zinc-900 border border-primary-500 rounded-2xl p-8 max-w-md w-[90%] text-center shadow-2xl">
+              <h2 className="text-2xl font-bold text-primary-400 mb-6">
+                Entre em Contato
+              </h2>
+
+              <div className="space-y-4 text-gray-300">
+                <p>
+                  <span className="font-semibold text-white">Telefone:</span><br />
+                  (11) 91482-8157
+                </p>
+
+                <p>
+                  <span className="font-semibold text-white">E-mail:</span><br />
+                  daviviana2732@gmail.com
+                </p>
+
+                <p>
+                  <span className="font-semibold text-white">LinkedIn:</span><br />
+                  <a
+                    href="www.linkedin.com/in/vianadavi"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="text-primary-400 hover:underline"
+                  >
+                    linkedin.com/in/seu-linkedin
+                  </a>
+                </p>
+              </div>
+
+              <button
+                onClick={fecharPopup}
+                className="mt-8 btn btn-primary"
+              >
+                Fechar
+              </button>
+            </div>
+          </div>
+        )}
       </section>
     );
   };
