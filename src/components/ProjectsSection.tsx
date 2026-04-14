@@ -24,6 +24,20 @@ interface Project {
 const projects: Project[] = [
   {
     id: 1,
+    title: 'Infra-Monitor',
+    description: 'API de monitoramento de infraestrutura',
+    image: Biblequest,
+    technologies: [
+      { name: 'Golang', color: 'bg-cyan-600' },
+      { name: 'Gin', color: 'bg-emerald-600' },
+      { name: 'PostgreSQL', color: 'bg-indigo-700' },
+      { name: 'Postman', color: 'bg-orange-500' },
+    ],
+    githubUrl: '#',
+    liveUrl: '#',
+  },
+  {
+    id: 2,
     title: 'TaskFlow-API',
     description: '#.',
     image: FandomLab,
@@ -36,9 +50,9 @@ const projects: Project[] = [
     liveUrl: '#',
   },
   {
-    id: 2,
+    id: 3,
     title: 'orbit-ops-starter',
-    description: 'CRM simples criado para atender nescessidades do meu empreendedorismo. Projeto FullStack.',
+    description: 'CRM simples criado para atender nescessidades de um projeto pequeno. Projeto FullStack.',
     image: FandomLab,
     technologies: [
       { name: 'Azure', color: 'bg-blue-500' },
@@ -50,7 +64,7 @@ const projects: Project[] = [
     liveUrl: '#',
   },
   {
-    id: 3,
+    id: 4,
     title: 'FandomLab',
     description: 'Rede social focada em um universo Geek em forma de pataforma.',
     image: gerenciadorapp,
@@ -65,7 +79,7 @@ const projects: Project[] = [
     liveUrl: 'https://fandom-lab.vercel.app/',
   },
   {
-    id: 4,
+    id: 5,
     title: 'Self Checkout',
     description: 'Site de e-commerce totalmente responsivo com filtro de produtos e funcionalidade de carrinho.',
     image: selfChekoutfoto,
@@ -79,9 +93,9 @@ const projects: Project[] = [
     liveUrl: '#',
   },
   {
-    id: 5,
-    title: 'Retail-Insights',
-    description: '#.',
+    id: 6,
+    title: 'Site de pizzaria',
+    description: 'Site web Criado com o intuito de treinar SQL.',
     image: selfChekoutfoto,
     technologies: [
       { name: '#', color: 'bg-blue-500' },
@@ -89,17 +103,17 @@ const projects: Project[] = [
       { name: '#', color: 'bg-blue-500' },
       { name: '#', color: 'bg-gray-400' },
     ],
-    githubUrl: 'https://github.com/Davi-CleanCode/Self-Checkout',
+    githubUrl: '#',
     liveUrl: '#',
   },
-    {
-    id: 6,
-    title: 'EclipseGenesis',
-    description: '#.',
+  {
+    id: 7,
+    title: 'Farm Star',
+    description: 'Jogo 2d no estilo stardew Valley.',
     image: selfChekoutfoto,
     technologies: [
-      { name: '#', color: 'bg-blue-500' },
-      { name: '#', color: 'bg-green-600' },
+      { name: 'Unity', color: 'bg-blue-500' },
+      { name: 'C#', color: 'bg-purple-400' },
       { name: '#', color: 'bg-blue-500' },
       { name: '#', color: 'bg-gray-400' },
     ],
@@ -107,9 +121,9 @@ const projects: Project[] = [
     liveUrl: '#',
   },
   {
-    id: 7,
+    id: 8,
     title: 'Orbit Page',
-    description: 'Essa é uma criação minha, uma landingpage de uma ideia de empreendedorismo, um projeto pessoal e especial para mim, que foi pensando em cada detalhe para oferecer uma experiência única aos visitantes.',
+    description: 'Essa landingpage foi pensando em cada detalhe para oferecer uma experiência única aos visitantes.',
     image: Orbitpage,
     technologies: [
       { name: 'React', color: 'bg-blue-500' },
@@ -121,7 +135,7 @@ const projects: Project[] = [
     liveUrl: 'https://orbit-page-five.vercel.app/',
   },
   {
-    id: 8,
+    id: 9,
     title: 'bible quest',
     description: 'O intuito é criar um site interativo e gamificado para estudo da bíblia.',
     image: Biblequest,
@@ -132,19 +146,6 @@ const projects: Project[] = [
     ],
     githubUrl: 'https://github.com/Davi-CleanCode/',
     liveUrl: 'https://bible-quest-xi.vercel.app/dashboard',
-  },
-  {
-    id: 9,
-    title: '#',
-    description: '#',
-    image: Biblequest,
-    technologies: [
-      { name: '#', color: 'bg-blue-500' },
-      { name: '#', color: 'bg-green-500' },
-      { name: '#', color: 'bg-blue-400' },
-    ],
-    githubUrl: '#',
-    liveUrl: '#',
   },
 ];
 

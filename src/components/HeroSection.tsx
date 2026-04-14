@@ -61,8 +61,7 @@ const HeroSection: React.FC = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
           >
-            Desenvolvedor Full Stack (.NET + JS) | C# | ASP.NET Core | APIs REST | SQL | Azure | Unity | Python | Automação e Sistemas Web
-          </motion.p>
+            Desenvolvedor de Software | Python • Golang • JavaScript | Back-End • Automação • APIs • Cloud • SQL</motion.p>
 
           <motion.p
             className="text-gray-300 mb-8 max-w-2xl mx-auto"
@@ -72,7 +71,6 @@ const HeroSection: React.FC = () => {
           >
             Estudante de Gestão de Tecnologia da Informação, especializado em desenvolvimento Full Stack e gestão de projetos, apaixonado por transformar ideias em soluções reais.
             Tenho experiência em análise de negócios e dados, automação de processos e integração de sistemas, aplicando metodologias ágeis e boas práticas de engenharia de software para gerar eficiência e impacto mensurável.
-            Atualmente, foco em desenvolvimento back-end com Node.js, Python e SQL, construindo aplicações escaláveis que unem tecnologia e visão estratégica.
           </motion.p>
 
           <motion.div
@@ -183,7 +181,7 @@ const HeroSection: React.FC = () => {
                     rel="noreferrer"
                     className="text-primary-400 hover:underline"
                   >
-                    linkedin.com/in/seu-linkedin
+                    https://www.linkedin.com/in/vianadavi/
                   </a>
                 </p>
               </div>

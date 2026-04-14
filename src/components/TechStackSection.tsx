@@ -1,41 +1,16 @@
 const icons: Record<string, JSX.Element> = {
-  nodejs: (
+  golang: (
     <img
-      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
-      alt="Node.js"
+      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg"
+      alt="Go"
       width={48}
       height={48}
     />
   ),
-  expressjs: (
+  gin: (
     <img
-      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
-      alt="Express.js"
-      width={48}
-      height={48}
-      style={{ backgroundColor: "#fff", borderRadius: "8px", padding: "4px" }}
-    />
-  ),
-  nextjs: (
-    <img
-      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
-      alt="Next.js"
-      width={48}
-      height={48}
-    />
-  ),
-  csharp: (
-    <img
-      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg"
-      alt="C#"
-      width={48}
-      height={48}
-    />
-  ),
-  dotnet: (
-    <img
-      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-original.svg"
-      alt=".NET"
+      src="https://raw.githubusercontent.com/gin-gonic/logo/master/color.png"
+      alt="Gin"
       width={48}
       height={48}
     />
@@ -55,6 +30,71 @@ const icons: Record<string, JSX.Element> = {
       width={48}
       height={48}
       style={{ backgroundColor: "#fff", borderRadius: "8px" }}
+    />
+  ),
+  nodejs: (
+    <img
+      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+      alt="Node.js"
+      width={48}
+      height={48}
+    />
+  ),
+  expressjs: (
+    <img
+      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
+      alt="Express.js"
+      width={48}
+      height={48}
+      style={{ backgroundColor: "#fff", borderRadius: "8px", padding: "4px" }}
+    />
+  ),
+  csharp: (
+    <img
+      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg"
+      alt="C#"
+      width={48}
+      height={48}
+    />
+  ),
+  dotnet: (
+    <img
+      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-original.svg"
+      alt=".NET"
+      width={48}
+      height={48}
+    />
+  ),
+  aws: (
+    <img
+      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
+      alt="AWS"
+      width={48}
+      height={48}
+    />
+  ),
+  azure: (
+    <img
+      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg"
+      alt="Azure"
+      width={48}
+      height={48}
+    />
+  ),
+  postgresql: (
+    <img
+      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
+      alt="PostgreSQL"
+      width={48}
+      height={48}
+    />
+  ),
+  bigquery: (
+    <img
+      src="https://www.vectorlogo.zone/logos/google_bigquery/google_bigquery-icon.svg"
+      alt="BigQuery"
+      width={48}
+      height={48}
     />
   ),
   typescript: (
@@ -81,6 +121,14 @@ const icons: Record<string, JSX.Element> = {
       height={48}
     />
   ),
+  nextjs: (
+    <img
+      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
+      alt="Next.js"
+      width={48}
+      height={48}
+    />
+  ),
   angular: (
     <img
       src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg"
@@ -89,63 +137,46 @@ const icons: Record<string, JSX.Element> = {
       height={48}
     />
   ),
-  postgresql: (
-    <img
-      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
-      alt="PostgreSQL"
-      width={48}
-      height={48}
-    />
-  ),
-  bigquery: (
-    <img
-      src="https://www.vectorlogo.zone/logos/google_bigquery/google_bigquery-icon.svg"
-      alt="BigQuery"
-      width={48}
-      height={48}
-    />
-  ),
-  Azure: (
-    <img
-      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg"
-      alt="azure"
-      width={48}
-      height={48}
-    />
-  ),
 };
 
 const techs = [
-  { name: "Node.js", key: "nodejs" },
-  { name: "Express.js", key: "expressjs" },
-  { name: "Next.js", key: "nextjs" },
-  { name: "C#", key: "csharp" },
-  { name: ".NET", key: "dotnet" },
+  { name: "Go (Golang)", key: "golang" },
+  { name: "Gin (Go Framework)", key: "gin" },
   { name: "Python", key: "python" },
   { name: "Django", key: "django" },
+
+  { name: "Node.js", key: "nodejs" },
+  { name: "Express.js", key: "expressjs" },
+  { name: "C#", key: "csharp" },
+  { name: ".NET", key: "dotnet" },
+
+  { name: "AWS", key: "aws" },
+  { name: "Azure", key: "azure" },
+
+  { name: "PostgreSQL", key: "postgresql" },
+  { name: "BigQuery", key: "bigquery" },
+
   { name: "TypeScript", key: "typescript" },
   { name: "JavaScript", key: "javascript" },
   { name: "React", key: "react" },
+  { name: "Next.js", key: "nextjs" },
   { name: "Angular", key: "angular" },
-  { name: "PostgreSQL", key: "postgresql" },
-  { name: "BigQuery", key: "bigquery" },
-  { name: "azure", key: "azure" },
 ];
 
 export default function TechStackSection() {
-    return (
-        <section className="py-12 bg-dark-950">
-            <div className="max-w-5xl mx-auto px-4">
-                <h2 className="text-3xl font-bold mb-8 text-center text-white">Principais Ferramentas</h2>
-                <div className="flex flex-wrap justify-center gap-10">
-                    {techs.map(tech => (
-                        <div key={tech.key} className="flex flex-col items-center">
-                            {icons[tech.key as keyof typeof icons]}
-                            <span className="mt-2 text-lg font-medium text-white">{tech.name}</span>
-                        </div>
-                    ))}
-                </div>
+  return (
+    <section className="py-12 bg-dark-950">
+      <div className="max-w-5xl mx-auto px-4">
+        <h2 className="text-3xl font-bold mb-8 text-center text-white">Principais Ferramentas</h2>
+        <div className="flex flex-wrap justify-center gap-10">
+          {techs.map(tech => (
+            <div key={tech.key} className="flex flex-col items-center">
+              {icons[tech.key as keyof typeof icons]}
+              <span className="mt-2 text-lg font-medium text-white">{tech.name}</span>
             </div>
-        </section>
-    );
+          ))}
+        </div>
+      </div>
+    </section>
+  );
 }
